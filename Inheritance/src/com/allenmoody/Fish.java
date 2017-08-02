@@ -10,4 +10,22 @@ public class Fish extends Animal {
         super(name,1,1, size, weight);
     }
 
+    private void rest() {
+
+    }
+
+    private void moveMuscles() {
+
+    }
+
+    private  void moveBackFin() {
+
+    }
+
+    private void swim(int speed) {
+        moveMuscles();
+        moveBackFin();
+        super.move(speed);
+    }
+
 }
